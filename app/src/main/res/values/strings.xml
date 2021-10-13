@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple Expenses Tracker</string>
+    <string name="amount_input_hint">Total Expense value ($)</string>
+    <string name="date_input_hint">Date</string>
+    <string name="expense_description_hint">Expense Description</string>
+    <string name="register_buttom_text">Register</string>
+</resources>

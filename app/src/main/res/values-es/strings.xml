@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Registro de Gastos Simple</string>
+    <string name="amount_input_hint">Monto total del gasto</string>
+    <string name="date_input_hint">Fecha</string>
+    <string name="expense_description_hint">Descripción del Gasto</string>
+    <string name="register_buttom_text">Registrar</string>
+</resources>
