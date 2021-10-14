@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ildefonso.simpleexpensestracker">
+    package="com.ildefonso.simpleexpensestracker" >
 
     <application
+        android:name=".ExpensesApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SimpleExpensesTracker">
+        android:theme="@style/Theme.SimpleExpensesTracker" >
         <activity
-            android:name="com.ildefonso.simpleexpensestracker.MainActivity"
-            android:exported="true">
+            android:name=".EditNewExpense"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

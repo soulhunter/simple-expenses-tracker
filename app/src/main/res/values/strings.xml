@@ -4,4 +4,5 @@
     <string name="date_input_hint">Date</string>
     <string name="expense_description_hint">Expense Description</string>
     <string name="register_buttom_text">Register</string>
+    <string name="add_expense">Add Expense</string>
 </resources>

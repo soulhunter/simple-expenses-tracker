@@ -11,4 +11,7 @@ interface ExpenseDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(expense: Expense)
+
+    @Query("DELETE FROM expenses")
+    suspend fun deleteAll()
 }

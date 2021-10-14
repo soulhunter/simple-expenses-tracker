@@ -5,4 +5,5 @@
     <string name="date_input_hint">Fecha</string>
     <string name="expense_description_hint">Descripción del Gasto</string>
     <string name="register_buttom_text">Registrar</string>
+    <string name="add_expense">Nuevo Gasto</string>
 </resources>
